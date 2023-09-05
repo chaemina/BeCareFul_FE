@@ -1,6 +1,8 @@
 import Container from "../components/atoms/Container";
 import Inner from "../components/atoms/Inner";
 import { Mobile, PC } from "../components/atoms/Resoinsive";
+import Title from "../components/atoms/Title";
+import Button from "../components/atoms/Button";
 
 const StartPage = () => {
   return (
@@ -9,10 +11,13 @@ const StartPage = () => {
       <PC>
         <Container>
           <Inner>
-            <div>PC</div>
+            <Title delay={0}>USE</Title>
+            <Title delay={1.5}>비케어플</Title>
+            <Title delay={2.5}>FOR</Title>
+            <Title delay={3.5}>BeCareful</Title>
           </Inner>
           <Inner>
-            <div>웹</div>
+            <Button className="absolute bottom-2 right-0">시작하기</Button>
           </Inner>
         </Container>
       </PC>
