@@ -13,8 +13,12 @@ const StyledButton = styled.div`
   box-sizing: border-box;
   display: block;
   transition: 0.4s;
-}`;
 
+  &:hover {
+    background-color: #fff;
+    color: #333;
+  }
+`;
 const Button = ({ children, className }) => {
   return (
     <>
