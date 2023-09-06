@@ -1,0 +1,4 @@
+.move-title {
+  transform: translateY(-60px); /* 위로 60px 이동 */
+  transition: transform 1s ease; /* 1초 동안 이동하도록 설정 */
+}
