@@ -22,7 +22,7 @@ const Title = ({ children, className, delay }) => {
 
   return (
     <div
-      className={`relative bottom-20 mt-2 text-purple-300 font-bold text-8xl ${className}`}
+      className={`relative bottom-20 mt-2 text-purple-300 font-bold no-wrap-text text-8xl ${className}`}
       ref={textRef}
       style={{ opacity: isVisible ? 1 : 0 }}
     >
