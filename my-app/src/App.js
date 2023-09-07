@@ -4,6 +4,7 @@ import StartPage from "../src/pages/StartPage";
 import MainPage from "../src/pages/MainPage";
 import GoLoginPage from "../src/pages/GoLoginPage";
 import RequiredAuthLayout from "../src/layouts/Auth";
+
 function App() {
   return (
     <div className="App">
