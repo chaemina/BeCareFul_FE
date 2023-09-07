@@ -46,8 +46,6 @@ const RiskLevel = ({ risk_level, message }) => {
           </div>
         </div>
       </div>
-      <Title className="text-sm">{risk_level}</Title>
-      <Title className="text-sm">{message}</Title>x
     </>
   );
 };

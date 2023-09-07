@@ -18,21 +18,28 @@ const Main = ({ similar_jachigu, risk_score, risk_level, message }) => {
         </Title>
       </Inner>
       {/* 위험도 */}
-      <Inner className="max-h-[140px]">
+      <Inner className="min-h-[60px]">
         <Title delay={3} className="mt-4 text-[40px]">
           {risk_score * 100}%
+        </Title>
+        <Title delay={4} className="relative  mt-4 text-[55px] text-right">
+          {risk_level}
         </Title>
         <RiskScore delay={1} risk_score={risk_score} />
       </Inner>
 
       {/* 위험 수준 */}
-      <Inner className="top-20 max-h-[120px]">
+      <Inner className="top-20 min-h-[120px]">
+        <Title delay={4.5} className="top-20 text-white text-[20px] text-right">
+          {message}
+        </Title>
         <RiskLevel risk_level={risk_level} message={message} />
       </Inner>
+
       {/* 자세히 보기 페이지로 이동 버튼 */}
 
       <Inner className="min-w-full">
-        <RoundButton className="absolute p-2 top-20 right-4">
+        <RoundButton className="absolute p-2 top-10 right-4">
           <span class="material-symbols-outlined text-8xl">chevron_right</span>
         </RoundButton>
       </Inner>

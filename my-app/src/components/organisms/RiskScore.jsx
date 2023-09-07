@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 
 const StyledBase = styled.div`
   position: relative;
+  bottom: 40px;
   height: 60px;
   border: 3px solid;
   width: 100%;
