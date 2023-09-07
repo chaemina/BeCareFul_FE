@@ -9,7 +9,7 @@ const Start = () => {
 
   const handleOnclick = () => {
     console.log("click");
-    navigate("/main");
+    navigate("/user/main");
   };
 
   return (

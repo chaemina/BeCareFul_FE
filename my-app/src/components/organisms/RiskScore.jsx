@@ -8,11 +8,12 @@ const StyledBase = styled.div`
   position: relative;
   height: 60px;
   border: 3px solid;
-  width: 600px; /* 예시로 600px로 지정 */
+  width: 100%;
   margin: 0 auto; /* 가운데 정렬을 위해 margin을 설정합니다. */
 `;
 
 const StyledRange = styled.div`
+  position: absolute;
   width: 0%;
   height: 100%;
   background: linear-gradient(to right, #ffacfc, #b76cfd); // 그라데이션 설정
@@ -45,11 +46,9 @@ const RiskScore = ({ risk_score, delay }) => {
 
   return (
     <>
-      <Inner className="min-w-full">
-        <StyledBase>
-          <StyledRange ref={scoreRef} style={{ opacity: isVisible ? 1 : 0 }} />
-        </StyledBase>
-      </Inner>
+      <StyledBase>
+        <StyledRange ref={scoreRef} style={{ opacity: isVisible ? 1 : 0 }} />
+      </StyledBase>
     </>
   );
 };
