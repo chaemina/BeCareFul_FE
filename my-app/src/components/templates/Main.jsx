@@ -19,15 +19,15 @@ const Main = ({ similar_jachigu, risk_score, risk_level, message }) => {
       </Inner>
       {/* 위험도 */}
       <Inner>
-        <RiskScore risk_score={risk_score} />
-      </Inner>
-      {/*  위험 수준 */}
-      <Inner>
-        <RiskLevel risk_level={risk_level} message={message} />
+        <RiskScore delay={1} risk_score={risk_score} />
       </Inner>
       {/* 자세히 보기 페이지로 이동 버튼 */}
+      {/* 위험 수준 */}
+      <Inner className="relative top-40">
+        <RiskLevel risk_level={risk_level} message={message} />
+      </Inner>
       <Inner>
-        <RoundButton>
+        <RoundButton className="absolute p-2 bottom-2 right-0">
           <span class="material-symbols-outlined text-8xl">chevron_right</span>
         </RoundButton>
       </Inner>
