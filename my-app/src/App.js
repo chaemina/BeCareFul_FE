@@ -14,10 +14,9 @@ function App() {
           <Route path={"/"} element={<StartPage />}></Route>
           <Route path={"/goLogin"} element={<GoLoginPage />}></Route>
           {/* 사용자 인증 레이아웃 */}
-          {/* <Route element={<RequiredAuthLayout />}> */}
-          {/* <Route path={"/user/main"} element={<MainPage />}></Route> */}
-          <Route path={"/main"} element={<MainPage />}></Route>
-          {/* </Route> */}
+          <Route element={<RequiredAuthLayout />}>
+            <Route path={"/main"} element={<MainPage />}></Route>
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
