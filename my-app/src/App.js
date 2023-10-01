@@ -4,6 +4,7 @@ import StartPage from "../src/pages/StartPage";
 import MainPage from "../src/pages/MainPage";
 import GoLoginPage from "../src/pages/GoLoginPage";
 import RequiredAuthLayout from "../src/layouts/Auth";
+import MorePage from "../src/pages/MorePage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* 사용자 인증 레이아웃 */}
           <Route element={<RequiredAuthLayout />}>
             <Route path={"/main"} element={<MainPage />}></Route>
+            <Route path={"/more"} element={<MorePage />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
