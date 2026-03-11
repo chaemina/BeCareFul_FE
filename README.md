@@ -14,16 +14,26 @@ KakaoMaps의 API를 사용해 자치구 정보를 데이터에 추가하고, 이
 웹 페이지 개발에서 프론트엔드 부분을 담당하며 JavaScript와 React를 활용했습니다.
 <br/>
 
-#### BackEnd && AI api git hub
-➡ https://github.com/yuseonkim/BeCareful_BE
+#### 👩‍💻Chaemina 
+- FrontEnd & AI 개발
 
-### 👫 Member 
-#### Chaemina 👩‍💻 
-- FrontEnd && AI 개발
-
-#### Kimyuseon 👨‍💻 
-- BackEnd && AI 개발 
+#### 👩‍💻 Kimyuseon
+- BackEnd & AI 개발
+- [BackEnd & AI api git hub](https://github.com/yuseonkim/BeCareful_BE)
 <br/>
+
+## 🤳🏻 FE 
+`Python` `JavaScript` `React` `CRA` `axios`
+#### directory structure
+```
+src
+├── components (아토믹 컴포넌트 디자인 패턴 사용)
+├── layouts
+├── pages
+├── services
+├── App.js
+└── index.js
+```
 
 ### :alarm_clock: Develop period
 - AI : 2022-06-05 ~ 2022-06-15
@@ -49,21 +59,7 @@ npm start
 
 <br/>
 
-```
-📌 디렉토리 구조
-src
-├── components (아토믹 컴포넌트 디자인 패턴 사용)
-├── layouts
-├── pages
-├── services
-├── App.js
-└── index.js
-```
-
-## 주 사용 기술 
-프론트 앤드 `Python` `JavaScript` `React` `CRA` `axios`
-
-## 회고 
+## 💬 Retrospective
 React를 선택한 이유는 컴포넌트의 재사용성을 통해 UI의 일관성을 높이고, 카카오 테크 캠퍼스에서 배운 내용을 실무에 적용하기 위함이었습니다. 
 
 사이트의 디자인은 단순함에 중점을 두고, 정보 제공 목적에 맞게 애니메이션 효과를 추가하여 사용자의 접근성을 높였습니다. 
